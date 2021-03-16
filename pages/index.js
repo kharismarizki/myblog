@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Jumbotron from '../components/jumbotron'
 import Article from '../components/article'
+import Pagination from '../components/pagination'
 
 export default function Home() {
   return (
@@ -20,10 +21,7 @@ export default function Home() {
       </h3>
 
       <Article />
-      <nav className="blog-pagination" aria-label="Pagination">
-        <a className="btn btn-outline-primary" href="#">Older</a>
-        <a className="btn btn-outline-secondary disabled" href="#" tabIndex="-1" aria-disabled="true">Newer</a>
-      </nav>
+      <Pagination />
 
     </div>
 
