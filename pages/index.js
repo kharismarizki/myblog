@@ -1,6 +1,7 @@
 import Head from 'next/head'
 //import styles from '../styles/Home.module.css'
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -158,12 +159,7 @@ export default function Home() {
 
 </main>
 
-      <footer className="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
-</footer>
+      <Footer />
     </div>
   )
 }
