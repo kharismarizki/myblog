@@ -1,38 +1,28 @@
-import Head from 'next/head'
+//import Head from 'next/head'
 //import styles from '../styles/Home.module.css'
-import Header from '../components/header'
-import Footer from '../components/footer'
 import Jumbotron from '../components/jumbotron'
 import Article from '../components/article'
 import Pagination from '../components/pagination'
 import Sidebar from '../components/sidebar'
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <div>
-      <Header />      
+      <Layout>
+        <Jumbotron />
 
-      <main className="container">
-      <Jumbotron />
+        <div className="row">
+          <div className="col-md-8">
+            <h3 className="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>
 
-  <div className="row">
-    <div className="col-md-8">
-      <h3 className="pb-4 mb-4 fst-italic border-bottom">
-        From the Firehose
-      </h3>
+            <Article />
+            <Pagination />
 
-      <Article />
-      <Pagination />
+          </div>
 
-    </div>
+          <Sidebar />
 
-    <Sidebar />
-
-  </div>
-
-</main>
-
-      <Footer />
-    </div>
+        </div>
+      </Layout>
   )
 }

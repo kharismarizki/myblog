@@ -1,6 +1,6 @@
 export default function Article(){
     return (
-        <article className="blog-post">
+      <article className="blog-post">
         <h2 className="blog-post-title">Sample blog post</h2>
         <p className="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
@@ -8,7 +8,7 @@ export default function Article(){
         <hr />
         <p>Yeah, she dances to her own beat. Oh, no. You could've been the greatest. 'Cause, baby, <a href="#">you're a firework</a>. Maybe a reason why all the doors are closed. Open up your heart and just let it begin. So très chic, yeah, she's a classNameic.</p>
         <blockquote>
-          <p>Bikinis, zucchinis, Martinis, no weenies. I know there will be sacrifice but that's the price. <strong>This is how we do it</strong>. I'm not sticking around to watch you go down. You think you're so rock and roll, but you're really just a joke. I know one spark will shock the world, yeah yeah. Can't replace you with a million rings.</p>
+           <p>Bikinis, zucchinis, Martinis, no weenies. I know there will be sacrifice but that's the price. <strong>This is how we do it</strong>. I'm not sticking around to watch you go down. You think you're so rock and roll, but you're really just a joke. I know one spark will shock the world, yeah yeah. Can't replace you with a million rings.</p>
         </blockquote>
         <p>Trying to connect the dots, don't know what to tell my boss. Before you met me I was alright but things were kinda heavy. You just gotta ignite the light and let it shine. Glitter all over the room <em>pink flamingos</em> in the pool. </p>
         <h2>Heading</h2>
@@ -23,7 +23,7 @@ export default function Article(){
           <li>Got a motel and built a fort out of sheets.</li>
           <li>Your kiss is cosmic, every move is magic.</li>
           <li>Suiting up for my crowning battle.</li>
-        </ul>
+         </ul>
         <p>Takes you miles high, so high, 'cause she’s got that one international smile.</p>
         <ol>
           <li>Scared to rock the boat and make a mess.</li>

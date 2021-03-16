@@ -1,5 +1,5 @@
 export default function Sidebar(){
-    return(
+    return (
         <div className="col-md-4">
             <div className="p-4 mb-3 bg-light rounded">
                 <h4 className="fst-italic">About</h4>
